@@ -52,9 +52,10 @@
 
 |  Model  | Created By | Description |    Link  |
 | ------- | ----------- | --------- | ------ | 
-| Stable Diffusion | Stability AI  |     |  | [Github](https://github.com/Stability-AI/stablediffusion) |
+| Stable Diffusion2 | Stability AI  |     |  | [Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-2) [Github](https://github.com/Stability-AI/stablediffusion) |
+| SDXL-turbo | Stability AI | SDXL-Turbo is a fast generative text-to-image model that can synthesize photorealistic images from a text prompt in a single network evaluation. SDXL-Turbo is a distilled version of SDXL 1.0, trained for real-time synthesis. SDXL-Turbo is based on a novel training method called Adversarial Diffusion Distillation (ADD). | [Hugging Face](https://huggingface.co/stabilityai/sdxl-turbo) | 
 | Stable Cascade | Stability AI | Stable Cascade is a diffusion model trained to generate images given a text prompt. It  is built upon the Würstchen architecture and its main difference to other models like Stable Diffusion is that it is working at a much smaller latent space. |  [Hugging Face](https://huggingface.co/stabilityai/stable-cascade) [Github](https://github.com/Stability-AI/StableCascade) |
-| DeciDiffusion | DeciAI |  | [Hugging Face](https://huggingface.co/collections/Deci/decidiffusion-models-65a7fc00d0803e7abc1487cc) |
+| DeciDiffusion v2.0 | DeciAI | DeciDiffusion 2.0 is a 732 million parameter text-to-image latent diffusion model. It is a state-of-the-art diffusion-based text-to-image generation model, builds upon the core architecture of Stable Diffusion. It incorporates key elements like the Variational Autoencoder (VAE) and the pre-trained Text Encoder CLIP. | [Hugging Face](https://huggingface.co/collections/Deci/decidiffusion-models-65a7fc00d0803e7abc1487cc) |
 | Playground v2.5 | Playground AI | Playground v2.5 is a diffusion-based text-to-image generative model. It is the state-of-the-art open-source model in aesthetic quality. | [Hugging Face](https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic) |
 | SDXL-Lightning | Bytedance | SDXL-Lightning is a lightning-fast text-to-image generation model. It can generate high-quality 1024px images in a few steps. | [Hugging Face](https://huggingface.co/ByteDance/SDXL-Lightning) |
 
@@ -66,10 +67,10 @@
 
 |  Model  | Created By | Description |    Link  |
 | ------- | ----------- | --------- | ------ | 
-| Whisper | OpenAI | Whisper is a Transformer based encoder-decoder model, also referred to as a sequence-to-sequence model. It was trained on 1 million hours of weakly labeled audio and 4 million hours of pseudolabeled audio collected using Whisper large-v2. | [Hugging Face](https://huggingface.co/collections/openai/whisper-release-6501bba2cf999715fd953013) [Github](https://github.com/openai/whisper) |
-| Distil-whisper | Hugging Face | | [Hugging Face](https://huggingface.co/distil-whisper) [Github](https://github.com/huggingface/distil-whisper) |
-| Metavoice | MetaVoice | | |
-| SpeechT5 | Microsoft | SpeechT5 model fine-tuned for speech synthesis (text-to-speech) | [Hugging Face](https://huggingface.co/collections/microsoft/speecht5-650995fc647a3ea442cc6c7b) [Github](https://github.com/microsoft/SpeechT5) |
+| Whisper (STT) | OpenAI | Whisper is a Transformer based encoder-decoder model, also referred to as a sequence-to-sequence model. It was trained on 1 million hours of weakly labeled audio and 4 million hours of pseudolabeled audio collected using Whisper large-v2. | [Hugging Face](https://huggingface.co/collections/openai/whisper-release-6501bba2cf999715fd953013) [Github](https://github.com/openai/whisper) |
+| Distil-whisper (STT) | Hugging Face | | [Hugging Face](https://huggingface.co/distil-whisper) [Github](https://github.com/huggingface/distil-whisper) |
+| Metavoice (TTS) | MetaVoice | MetaVoice-1B is a 1.2B parameter base model trained on 100K hours of speech for TTS (text-to-speech). | [Hugging Face](https://huggingface.co/metavoiceio/metavoice-1B-v0.1) [Github](https://github.com/metavoiceio/metavoice-src) |
+| SpeechT5 (TTS) | Microsoft | SpeechT5 model fine-tuned for speech synthesis (text-to-speech). The SpeechT5 framework consists of a shared encoder-decoder network and six modal-specific (speech/text) pre/post-nets. After preprocessing the input speech/text through the pre-nets, the shared encoder-decoder network models the sequence-to-sequence transformation, and then the post-nets generate the output in the speech/text modality based on the output of the decoder. | [Hugging Face](https://huggingface.co/collections/microsoft/speecht5-650995fc647a3ea442cc6c7b) [Github](https://github.com/microsoft/SpeechT5) |
 | Musicgen | Meta |  |  | 
 
 
