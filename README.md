@@ -14,11 +14,11 @@
 | Gemma | Google | 2B 7B | Gemma is a family of lightweight, state-of-the-art open models from Google, built from the same research and technology used to create the Gemini models. They are text-to-text, decoder-only large language models, available in English, with open weights, pre-trained variants, and instruction-tuned variants. Gemma models are well-suited for a variety of text generation tasks, including question answering, summarization, and reasoning. | [Hugging Face](https://huggingface.co/collections/google/gemma-release-65d5efbccdbb8c4202ec078b)  [Github](https://github.com/google-deepmind/gemma) [Blog](https://blog.google/technology/developers/gemma-open-models/) | 
 | Grok 1.0 | xAI | 314B |  | [Github](https://github.com/xai-org/grok-1) [Hugging Face](https://huggingface.co/xai-org/grok-1) | 
 | Llama 2 | Meta AI | 7B 13B 70B | Llama 2 is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. It is an auto-regressive language model that uses an optimized transformer architecture. The tuned versions use supervised fine-tuning (SFT) and reinforcement learning with human feedback (RLHF) to align to human preferences for helpfulness and safety. | [Hugging Face](https://huggingface.co/meta-llama) [Github](https://github.com/meta-llama/llama) [Blog](https://ai.meta.com/blog/llama-2/) | 
-| Dolly v2 | Databricks | 3B 7B 12B |    | Dolly v2 is a causal language model created by Databricks that is derived from EleutherAI's Pythia-12b and fine-tuned on a ~15K record instruction corpus. | [Github](https://github.com/databrickslabs/dolly) | 
+| Dolly v2 | Databricks | 3B 7B 12B | Dolly v2 is a causal language model created by Databricks that is derived from EleutherAI's Pythia-12b and fine-tuned on a ~15K record instruction corpus. | [Github](https://github.com/databrickslabs/dolly) | 
 | DBRX | Databricks | 132B Active 36B | DBRX is a transformer-based decoder-only large language model (LLM) that was trained using next-token prediction. It uses a fine-grained mixture-of-experts (MoE) architecture with 132B total parameters of which 36B parameters are active on any input. It was pre-trained on 12T tokens of text and code data. Compared to other open MoE models like Mixtral-8x7B and Grok-1, DBRX is fine-grained, meaning it uses a larger number of smaller experts. DBRX has 16 experts and chooses 4, while Mixtral-8x7B and Grok-1 have 8 experts and choose 2. This provides 65x more possible combinations of experts which improves model quality. | [Hugging Face](https://huggingface.co/collections/databricks/dbrx-6601c0852a0cdd3c59f71962) [Github](https://github.com/databricks/dbrx) [Blog](https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm) | 
 | Command-R | Cohere | 35B | Command-R is a research release of a 35 billion parameter highly performant generative model. Command-R is a large language model with open weights optimized for a variety of use cases including reasoning, summarization, and question answering. Command-R has the capability for multilingual generation evaluated in 10 languages and highly performant RAG capabilities. | [Hugging Face](https://huggingface.co/CohereForAI/c4ai-command-r-v01) | 
 | Qwen1.5 | Alibaba | 7B 14B 72B |  |  | [Hugging Face](https://huggingface.co/Qwen) [Github](https://github.com/QwenLM/Qwen) | 
-| Vicuna v1.5 | Lysms | 7B 13B  |  | [Hugging Face Vicuna 7B](https://huggingface.co/lmsys/vicuna-7b-v1.5) [Hugging Face Vichna 13B](https://huggingface.co/lmsys/vicuna-13b-v1.5) | 
+| Vicuna v1.5 | Lysms | 7B 13B  |  | [Hugging Face Vicuna 7B](https://huggingface.co/lmsys/vicuna-7b-v1.5) [Hugging Face Vicuna 13B](https://huggingface.co/lmsys/vicuna-13b-v1.5) | 
 | Phi 2 | Microsoft | 2.7B | | [Hugging Face](https://huggingface.co/microsoft/phi-2) |
 | Orca 2 | Microsoft | 7B 13B | | [Hugging Face](https://huggingface.co/collections/microsoft/orca-65bbeef1980f5719cccc89a3) |
 | Smaug | Abacus AI | 34B 72B | | [Hugging Face](https://huggingface.co/abacusai) | 
@@ -39,7 +39,7 @@
 | ------- | ----------- | --------- | ------ | ----- | 
 | Codellama | Meta AI | 7B 13B 34B 70B | Code Llama is a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. | [Github](https://github.com/meta-llama/codellama) [Hugging Face](https://huggingface.co/codellama) | 
 | Starcoder | BigCode | 15.5B | The StarCoder models are 15.5B parameter models trained on 80+ programming languages from The Stack (v1.2), with opt-out requests excluded. The model uses Multi Query Attention, a context window of 8192 tokens, and was trained using the Fill-in-the-Middle objective on 1 trillion tokens. | [Hugging Face](https://huggingface.co/bigcode/starcoder) [Github](https://github.com/bigcode-project/starcoder) | 
-| Starcoder2 | BigCode | 3B 7B 15B |   | StarCoder2-15B model is a 15B parameter model trained on 600+ programming languages from The Stack v2, with opt-out requests excluded. The model uses Grouped Query Attention, a context window of 16,384 tokens with a sliding window attention of 4,096 tokens, and was trained using the Fill-in-the-Middle objective on 4+ trillion tokens. | [Hugging Face](https://huggingface.co/collections/bigcode/starcoder2-65de6da6e87db3383572be1a) [GitHub](https://github.com/bigcode-project/starcoder2) | 
+| Starcoder2 | BigCode | 3B 7B 15B | StarCoder2-15B model is a 15B parameter model trained on 600+ programming languages from The Stack v2, with opt-out requests excluded. The model uses Grouped Query Attention, a context window of 16,384 tokens with a sliding window attention of 4,096 tokens, and was trained using the Fill-in-the-Middle objective on 4+ trillion tokens. | [Hugging Face](https://huggingface.co/collections/bigcode/starcoder2-65de6da6e87db3383572be1a) [GitHub](https://github.com/bigcode-project/starcoder2) | 
 | DeciCoder | DeciAI | 1B 6B | DeciCoder are decoder-only code completion models trained on the Python, Java, and Javascript subsets of Starcoder Training Dataset. The model uses Grouped Query Attention and has a context window of 2048 tokens. It was trained using a Fill-in-the-Middle training objective. | [Hugging Face](https://huggingface.co/collections/Deci/decicoder-models-65a7faf617d869bb743f1766) |  
 | Stable Code | Stability AI | 3B | | [Hugging Face](https://huggingface.co/collections/stabilityai/stable-code-64f9dfb4ebc8a1be0a3f7650) [Github](https://github.com/Stability-AI/StableCode) | 
 | SqlCoder | DefogAI | 2B 34B 70B | | [Hugging Face](https://huggingface.co/defog) [Github](https://github.com/defog-ai/sqlcoder) | 
@@ -100,7 +100,9 @@
 | Mistral Large | Mistral AI |  [Mistral](https://mistral.ai/technology/#models) [Blog](https://mistral.ai/news/mistral-large/) |
 | Mistral Medium | Mistral AI |  [Mistral](https://mistral.ai/technology/#models) |
 | Palm 2 | Google | [Palm2](https://ai.google/discover/palm2/) |
- 
+| Jurassic2 | A121 labs | [Blog](https://www.ai21.com/blog/introducing-j2) |
+| Titan | AWS | [Titan](https://aws.amazon.com/bedrock/titan/) |
+
 
 <br>
 
@@ -111,6 +113,9 @@
 | Imagen 2 | Google  |  [Imagen](https://deepmind.google/technologies/imagen-2/) |
 | Dalle3 | OpenAI |  [Dalle3](https://openai.com/dall-e-3) |
 | Dalle2 | OpenAI |  [Dalle2](https://openai.com/dall-e-2) |
+| Firefly | Adobe | [Firefly](https://firefly.adobe.com) | 
+| Midjourney v6 | Midjourney | [Midjourney](https://www.midjourney.com/)  |
+| Titan Image Generator | AWS | [Titan](https://aws.amazon.com/blogs/aws/amazon-titan-image-generator-multimodal-embeddings-and-text-models-are-now-available-in-amazon-bedrock/) |
 
 
 <br>
