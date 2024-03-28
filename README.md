@@ -25,7 +25,7 @@
 | MPT | Mosaicml | 1B 7B 30B | MPT is a decoder-style transformer pretrained from scratch on 1T tokens of English text and code. These models use a modified transformer architecture optimized for efficient training and inference. These architectural changes include performance-optimized layer implementations and the elimination of context length limits by replacing positional embeddings with Attention with Linear Biases (ALiBi). | [Hugging Face](https://huggingface.co/collections/mosaicml/mpt-6564f3d9e5aac326bfa22def) | 
 | Falcon | TLL | 7B 40B 180B | Falcon is a 7B/40B/180B parameters causal decoder-only models built by TII and trained on  1,000B/1,500B/3,500B tokens of RefinedWeb enhanced with curated corpora. | [Hugging Face](https://huggingface.co/tiiuae) | 
 | DeciLM | DeciAI | 6B 7B | DeciLM is a decoder-only text generation model. With support for an 8K-token sequence length, this highly efficient model uses variable Grouped-Query Attention (GQA) to achieve a superior balance between accuracy and computational efficiency. | [Hugging Face](https://huggingface.co/collections/Deci/decilm-models-65a7fb6a65e4f1a5eb14917a) |
-| BERT | Google | 110M to 350M | 
+| BERT | Google | 110M to 350M | BERT is a transformers model pretrained on a large corpus of English data in a self-supervised fashion. This means it was pretrained on the raw texts only, with no humans labeling them in any way  with an automatic process to generate inputs and labels from those texts. |
 [Hugging Face](https://huggingface.co/collections/google/bert-release-64ff5e7a4be99045d1896dbc) [GitHub](https://github.com/google-research/bert) | 
 | Olmo | AllenAI | 1B 7B | OLMo is a series of Open Language Models designed to enable the science of language models. The OLMo models are trained on the Dolma dataset. | [Hugging Face](https://huggingface.co/collections/allenai/olmo-suite-65aeaae8fe5b6b2122b46778) [Github](https://github.com/allenai/OLMo) | 
 | Openchat3.5 | Openchat | 7B | Openchat2.5 is the best performing 7B LLM. | [Hugging Face](https://huggingface.co/collections/openchat/openchat-65110500e14eeb01d4888806) [Github](https://github.com/imoneoi/openchat) |
@@ -65,6 +65,7 @@
 | DeciDiffusion v2.0 | DeciAI | DeciDiffusion 2.0 is a 732 million parameter text-to-image latent diffusion model. It is a state-of-the-art diffusion-based text-to-image generation model, builds upon the core architecture of Stable Diffusion. It incorporates key elements like the Variational Autoencoder (VAE) and the pre-trained Text Encoder CLIP. | [Hugging Face](https://huggingface.co/collections/Deci/decidiffusion-models-65a7fc00d0803e7abc1487cc) |
 | Playground v2.5 | Playground AI | Playground v2.5 is a diffusion-based text-to-image generative model. It is the state-of-the-art open-source model in aesthetic quality. | [Hugging Face](https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic) |
 | SDXL-Lightning | Bytedance | SDXL-Lightning is a lightning-fast text-to-image generation model. It can generate high-quality 1024px images in a few steps. | [Hugging Face](https://huggingface.co/ByteDance/SDXL-Lightning) |
+| Open Journey | PromptHero | Stable Diffusion fine tuned model on Midjourney images. | [Hugging Face](https://huggingface.co/prompthero/openjourney) |
 
 
 <br>
@@ -98,7 +99,7 @@
 
 <br>
 
-## Closed Models 
+## Closed Source (Proprietary) Models 
 
 <br>
 
@@ -132,6 +133,7 @@
 | Firefly | Adobe | [Firefly](https://firefly.adobe.com) | 
 | Midjourney v6, v5 | Midjourney | [Midjourney](https://www.midjourney.com/)  |
 | Titan Image Generator | AWS | [Titan](https://aws.amazon.com/blogs/aws/amazon-titan-image-generator-multimodal-embeddings-and-text-models-are-now-available-in-amazon-bedrock/) |
+| Emu Edit | Meta | [Emu Edit](https://emu-edit.metademolab.com/) [Blog](https://ai.meta.com/blog/emu-text-to-video-generation-image-editing-research/) | 
 
 
 <br>
@@ -144,5 +146,6 @@
 | Sora | OpenAI | [Sora](https://openai.com/sora) |
 | Runwayml Gen2 | Runwayml | [Gen2](https://research.runwayml.com/gen2) | 
 | Runwayml Gen1 | Runwayml | [Gen1](https://research.runwayml.com/gen1) |
+| Emu Video | Meta | [Emu Video](https://emu-video.metademolab.com/) [Blog](https://ai.meta.com/blog/emu-text-to-video-generation-image-editing-research/) | 
 
 ---
