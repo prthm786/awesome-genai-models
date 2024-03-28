@@ -29,6 +29,8 @@
 | Olmo | AllenAI | 1B 7B | | [Hugging Face](https://huggingface.co/collections/allenai/olmo-suite-65aeaae8fe5b6b2122b46778) [Github](https://github.com/allenai/OLMo) | 
 | Openchat3.5 | Openchat | 7B | Openchat2.5 is the best performing 7B LLM. | [Hugging Face](https://huggingface.co/collections/openchat/openchat-65110500e14eeb01d4888806) [Github](https://github.com/imoneoi/openchat) |
 | Bloom | BigScience | | BLOOM is an autoregressive Large Language Model (LLM), trained to continue text from a prompt on vast amounts of text data using industrial-scale computational resources. | [Hugging Face](https://huggingface.co/bigscience/bloom) |
+| Merlinite | IBM | 7B |  | [Hugging Face](https://huggingface.co/ibm/merlinite-7b) |
+| Labradorite | IBM | 13B | | [Hugging Face](https://huggingface.co/ibm/labradorite-13b) | 
 
 
 <br>
@@ -94,14 +96,14 @@
 | GPT3.5 | OpenAI |  [GPT3.5](https://platform.openai.com/docs/guides/chat) |  
 | Gemini1.5 | Google |  [Gemini](https://deepmind.google/technologies/gemini/) [Blog](https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/) | 
 | Gemini1.0 | Google |  [Gemini](https://deepmind.google/technologies/gemini/) [Blog](https://blog.google/technology/ai/google-gemini-ai/) |  
-| Claude3 | Anthropic | 
-[Claude](https://www.anthropic.com/claude) [Blog](https://www.anthropic.com/news/claude-3-family) | 
+| Claude3 | Anthropic | [Claude](https://www.anthropic.com/claude) [Blog](https://www.anthropic.com/news/claude-3-family) | 
 | Claude2.1 | Anthropic |   [Claude](https://www.anthropic.com/claude) [Blog](https://www.anthropic.com/news/claude-2-1) |   
 | Mistral Large | Mistral AI |  [Mistral](https://mistral.ai/technology/#models) [Blog](https://mistral.ai/news/mistral-large/) |
 | Mistral Medium | Mistral AI |  [Mistral](https://mistral.ai/technology/#models) |
 | Palm 2 | Google | [Palm2](https://ai.google/discover/palm2/) |
 | Jurassic2 | A121 labs | [Blog](https://www.ai21.com/blog/introducing-j2) |
 | Titan | AWS | [Titan](https://aws.amazon.com/bedrock/titan/) |
+| Granite | IBM | [Granite](https://www.ibm.com/products/watsonx-ai/foundation-models) |
 
 
 <br>
