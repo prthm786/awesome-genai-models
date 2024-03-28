@@ -25,7 +25,7 @@
 | MPT | Mosaicml | 1B 7B 30B | MPT is a decoder-style transformer pretrained from scratch on 1T tokens of English text and code. These models use a modified transformer architecture optimized for efficient training and inference. These architectural changes include performance-optimized layer implementations and the elimination of context length limits by replacing positional embeddings with Attention with Linear Biases (ALiBi). | [Hugging Face](https://huggingface.co/collections/mosaicml/mpt-6564f3d9e5aac326bfa22def) | 
 | Falcon | TLL | 7B 40B 180B | Falcon is a 7B/40B/180B parameters causal decoder-only models built by TII and trained on  1,000B/1,500B/3,500B tokens of RefinedWeb enhanced with curated corpora. | [Hugging Face](https://huggingface.co/tiiuae) | 
 | DeciLM | DeciAI | 6B 7B | DeciLM is a decoder-only text generation model. With support for an 8K-token sequence length, this highly efficient model uses variable Grouped-Query Attention (GQA) to achieve a superior balance between accuracy and computational efficiency. | [Hugging Face](https://huggingface.co/collections/Deci/decilm-models-65a7fb6a65e4f1a5eb14917a) |
-| BERT | Google | 110M to 350M | | 
+| BERT | Google | 110M to 350M | 
 [Hugging Face](https://huggingface.co/collections/google/bert-release-64ff5e7a4be99045d1896dbc) [GitHub](https://github.com/google-research/bert) | 
 | Olmo | AllenAI | 1B 7B | OLMo is a series of Open Language Models designed to enable the science of language models. The OLMo models are trained on the Dolma dataset. | [Hugging Face](https://huggingface.co/collections/allenai/olmo-suite-65aeaae8fe5b6b2122b46778) [Github](https://github.com/allenai/OLMo) | 
 | Openchat3.5 | Openchat | 7B | Openchat2.5 is the best performing 7B LLM. | [Hugging Face](https://huggingface.co/collections/openchat/openchat-65110500e14eeb01d4888806) [Github](https://github.com/imoneoi/openchat) |
@@ -59,7 +59,7 @@
 
 |  Model  | Created By | Description |    Link  |
 | ------- | ----------- | --------- | ------ | 
-| Stable Diffusion2 | Stability AI  |     | It is a Diffusion-based text-to-image generation model. This model can be used to generate and modify images based on text prompts. It is a Latent Diffusion Model that uses a fixed, pretrained text encoder (OpenCLIP-ViT/H). | [Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-2) [Github](https://github.com/Stability-AI/stablediffusion) [Github](https://github.com/Stability-AI/stablediffusion) |
+| Stable Diffusion2 | Stability AI | It is a Diffusion-based text-to-image generation model. This model can be used to generate and modify images based on text prompts. It is a Latent Diffusion Model that uses a fixed, pretrained text encoder (OpenCLIP-ViT/H). | [Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-2) [Github](https://github.com/Stability-AI/stablediffusion) [Github](https://github.com/Stability-AI/stablediffusion) |
 | SDXL-turbo | Stability AI | SDXL-Turbo is a fast generative text-to-image model that can synthesize photorealistic images from a text prompt in a single network evaluation. SDXL-Turbo is a distilled version of SDXL 1.0, trained for real-time synthesis. SDXL-Turbo is based on a novel training method called Adversarial Diffusion Distillation (ADD). | [Hugging Face](https://huggingface.co/stabilityai/sdxl-turbo) | 
 | Stable Cascade | Stability AI | Stable Cascade is a diffusion model trained to generate images given a text prompt. It  is built upon the Würstchen architecture and its main difference to other models like Stable Diffusion is that it is working at a much smaller latent space. |  [Hugging Face](https://huggingface.co/stabilityai/stable-cascade) [Github](https://github.com/Stability-AI/StableCascade) |
 | DeciDiffusion v2.0 | DeciAI | DeciDiffusion 2.0 is a 732 million parameter text-to-image latent diffusion model. It is a state-of-the-art diffusion-based text-to-image generation model, builds upon the core architecture of Stable Diffusion. It incorporates key elements like the Variational Autoencoder (VAE) and the pre-trained Text Encoder CLIP. | [Hugging Face](https://huggingface.co/collections/Deci/decidiffusion-models-65a7fc00d0803e7abc1487cc) |
@@ -87,8 +87,8 @@
 
 |  Model  | Created By | Description |    Link  |
 | ------- | ----------- | --------- | ------ | 
-| Stable Video Diffusion | Stability AI | | [Hugging Face]() |
-| Animate | Bytedance | | | 
+| Stable Video Diffusion | Stability AI | Stable Video Diffusion (SVD) Image-to-Video is a diffusion model that takes in a still image as a conditioning frame, and generates a video from it. It is a latent diffusion model trained to generate short video clips from an image conditioning. This model was trained to generate 14 frames at resolution 576x1024 given a context frame of the same size. | [Hugging Face](https://huggingface.co/collections/stabilityai/video-65f87e5fc8f264ce4dae9bfa) |
+| AnimateDiff Lightening | Bytedance | AnimateDiff-Lightning is a lightning-fast text-to-video generation model. It can generate videos more than ten times faster than the original AnimateDiff. AnimateDiff-Lightning produces the best results when used with stylized base models. | [Hugging Face](https://huggingface.co/ByteDance/AnimateDiff-Lightning) | 
 
 
 <br>
@@ -135,5 +135,14 @@
 
 
 <br>
+
+### Video Generation Models 
+
+
+|  Model  | Created By |  Link  |
+| ------- | ----------- | ------ | 
+| Sora | OpenAI | [Sora](https://openai.com/sora) |
+| Runwayml Gen2 | Runwayml | [Gen2](https://research.runwayml.com/gen2) | 
+| Runwayml Gen1 | Runwayml | [Gen1](https://research.runwayml.com/gen1) |
 
 ---
