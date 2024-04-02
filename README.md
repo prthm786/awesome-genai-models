@@ -1,5 +1,18 @@
 # Generative AI Models 
 
+- [Open Source Models](/awesome-genai-models#open-source-models)
+  - [Text Generation](/awesome-genai-models#text-generation)
+  - [Code Generation](/awesome-genai-models#code-generation)
+  - [Image Generation](/awesome-genai-models#image-generation)
+  - [Speech and Audio](/awesome-genai-models#speech-and-audio-models)
+  - [Video Generation](/awesome-genai-models#video-generation-models)
+
+- [Closed Source Models](/awesome-genai-models#closed-source-proprietary-models)
+  - [Text Generation](/awesome-genai-models#text-generation-1)
+  - [Image Generation](/awesome-genai-models#image-generation-1)
+  - [Video Generation](/awesome-genai-models#video-generation-models-1)
+
+
 ## Open Source Models 
 
 <br>
@@ -46,6 +59,7 @@
 | DeepSeek LLM | Deepseek AI | 7B 67B |   DeepSeek LLM is an advanced language model. It has been trained from scratch on a vast dataset of 2 trillion tokens in both English and Chinese. | [Hugging Face](https://huggingface.co/collections/deepseek-ai/deepseek-llm-65f2964ad8a0a29fe39b71d8) [Github](https://github.com/deepseek-ai/DeepSeek-LLM) | 
 | Deepseek VL (Multimodal) | Deepseek AI | 1.3B 7B | DeepSeek-VL, an open-source Vision-Language (VL) Model designed for real-world vision and language understanding applications. DeepSeek-VL possesses general multimodal understanding capabilities, capable of processing logical diagrams, web pages, formula recognition, scientific literature, natural images, and embodied intelligence in complex scenarios. It is a hybrid vision encoder supporting 1024 x 1024 image input and is constructed based on the DeepSeek-7b-base which is trained on an approximate corpus of 2T text tokens. | [Hugging Face](https://huggingface.co/collections/deepseek-ai/deepseek-vl-65f295948133d9cf92b706d3) |
 | Llava 1.6 (Multimodal) | Llava HF | 7B 13B 34B | LLaVa combines a pre-trained large language model with a pre-trained vision encoder for multimodal chatbot use cases. Available models:- Llava-v1.6-34b-hf, Llava-v1.6-Mistral-7b-hf, Llava-v1.6-Vicuna-7b-hf, Llava-v1.6-vicuna-13b-hf | [Hugging Face](https://huggingface.co/collections/llava-hf/llava-next-65f75c4afac77fd37dbbe6cf) [Hugging Face](https://huggingface.co/llava-hf/llava-v1.6-34b-hf) |
+| Nemotron 3 | Nvidia | 8B | Nemotron-3 are large language foundation models for enterprises to build custom LLMs. This foundation model has 8 billion parameters, and supports a context length of 4,096 tokens. Nemotron-3 is a family of enterprise ready generative text models compatible with NVIDIA NeMo Framework. | [Hugging Face](https://huggingface.co/collections/nvidia/nemotron-3-8b-6553adeb226f6ab4ffc356f9) |
 
 
 <br>
@@ -131,6 +145,7 @@
 | Gemini 1.0 | Google |  [Gemini](https://deepmind.google/technologies/gemini/) [Blog](https://blog.google/technology/ai/google-gemini-ai/) |  
 | Claude 3 | Anthropic | [Claude](https://www.anthropic.com/claude) [Blog](https://www.anthropic.com/news/claude-3-family) | 
 | Claude 2.1 | Anthropic |   [Claude](https://www.anthropic.com/claude) [Blog](https://www.anthropic.com/news/claude-2-1) |   
+| Grok 1.5 | xAI | [Grok 1.5](https://x.ai/blog/grok-1.5) |
 | Mistral Large | Mistral AI |  [Mistral](https://mistral.ai/technology/#models) [Blog](https://mistral.ai/news/mistral-large/) |
 | Mistral Medium | Mistral AI |  [Mistral](https://mistral.ai/technology/#models) |
 | Palm 2 | Google | [Palm2](https://ai.google/discover/palm2/) |
@@ -139,6 +154,8 @@
 | Granite | IBM | [Granite](https://www.ibm.com/products/watsonx-ai/foundation-models) |
 | Infection 2.5 | Infection AI | [Blog](https://inflection.ai/inflection-2-5) | 
 
+
+
 <br>
 
 ### Image Generation
@@ -146,11 +163,12 @@
 |  Model  | Created By |  Link  |
 | ------- | ---------- | ------- | 
 | Imagen 2 | Google  |  [Imagen](https://deepmind.google/technologies/imagen-2/) |
-| Dalle3 | OpenAI |  [Dalle3](https://openai.com/dall-e-3) |
-| Dalle2 | OpenAI |  [Dalle2](https://openai.com/dall-e-2) |
-| Firefly | Adobe | [Firefly](https://firefly.adobe.com) | 
+| Dalle 3 | OpenAI |  [Dalle3](https://openai.com/dall-e-3) |
+| Dalle 2 | OpenAI |  [Dalle2](https://openai.com/dall-e-2) |
+| Firefly 2 | Adobe | [Firefly](https://firefly.adobe.com) | 
 | Midjourney v6, v5 | Midjourney | [Midjourney](https://www.midjourney.com/)  |
 | Titan Image Generator | AWS | [Titan](https://aws.amazon.com/blogs/aws/amazon-titan-image-generator-multimodal-embeddings-and-text-models-are-now-available-in-amazon-bedrock/) |
+| Ideogram 1.0 | Ideogram | [Ideogram 1.0](https://about.ideogram.ai/1.0) |
 | Emu Edit | Meta AI | [Emu Edit](https://emu-edit.metademolab.com/) [Blog](https://ai.meta.com/blog/emu-text-to-video-generation-image-editing-research/) | 
 
 
@@ -165,6 +183,18 @@
 | Runwayml Gen2 | Runwayml | [Gen2](https://research.runwayml.com/gen2) | 
 | Runwayml Gen1 | Runwayml | [Gen1](https://research.runwayml.com/gen1) |
 | Emu Video | Meta AI | [Emu Video](https://emu-video.metademolab.com/) [Blog](https://ai.meta.com/blog/emu-text-to-video-generation-image-editing-research/) | 
+
+
+<br>
+
+### Speech and Audio Models 
+
+  Model  | Created By |  Link  |
+| ------- | ----------- | ------ | 
+| Suno v3 | Suno | [Blog](https://www.suno.ai/blog/v3) |
+| Voicebox | Meta AI | [Voicebox](https://voicebox.metademolab.com/) [Blog](https://ai.meta.com/blog/voicebox-generative-ai-model-speech/) | 
+| Audiobox | Meta AI | [Audiobox](https://audiobox.metademolab.com/) [Blog](https://ai.meta.com/blog/audiobox-generating-audio-voice-natural-language-prompts/) |
+
 
 <br>
 
