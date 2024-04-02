@@ -1,16 +1,16 @@
 # Generative AI Models 
 
-- [Open Source Models](/awesome-genai-models#open-source-models)
-  - [Text Generation](/awesome-genai-models#text-generation)
-  - [Code Generation](/awesome-genai-models#code-generation)
-  - [Image Generation](/awesome-genai-models#image-generation)
-  - [Speech and Audio](/awesome-genai-models#speech-and-audio-models)
-  - [Video Generation](/awesome-genai-models#video-generation-models)
+- [Open Source Models](#open-source-models)
+  - [Text Generation](#text-generation)
+  - [Code Generation](#code-generation)
+  - [Image Generation](#image-generation)
+  - [Speech and Audio](#speech-and-audio-models)
+  - [Video Generation](#video-generation-models)
 
-- [Closed Source Models](/awesome-genai-models#closed-source-proprietary-models)
-  - [Text Generation](/awesome-genai-models#text-generation-1)
-  - [Image Generation](/awesome-genai-models#image-generation-1)
-  - [Video Generation](/awesome-genai-models#video-generation-models-1)
+- [Closed Source Models](#closed-source-proprietary-models)
+  - [Text Generation](#text-generation-1)
+  - [Image Generation](#image-generation-1)
+  - [Video Generation](#video-generation-models-1)
 
 
 ## Open Source Models 
@@ -54,12 +54,14 @@
 | OPT | Meta AI | 125M to 175B | OPT are decoder-only pre-trained transformers ranging from 125M to 175B parameters. It was predominantly pretrained with English text but a small amount of non-English data is still present within the training corpus via CommonCrawl. | [Hugging Face](https://huggingface.co/facebook/opt-30b) | 
 | Stable LM Zephyr | Stability AI | 3B | StableLM Zephyr 3B model is an auto-regressive language model based on the transformer decoder architecture. StableLM Zephyr 3B is a 3 billion parameter that was trained on a mix of publicly available datasets and synthetic datasets using Direct Preference Optimization (DPO). | [Hugging Face](https://huggingface.co/stabilityai/stablelm-zephyr-3b) |
 | Aya | Cohere | 13B | The Aya model is a transformer style autoregressive massively multilingual generative language model that follows instructions in 101 languages. It has same architecture as mt5-xxl. | [Hugging Face](https://huggingface.co/CohereForAI/aya-101) [Blog](https://txt.cohere.com/aya/) |
+| Nemotron 3 | Nvidia | 8B | Nemotron-3 are large language foundation models for enterprises to build custom LLMs. This foundation model has 8 billion parameters, and supports a context length of 4,096 tokens. Nemotron-3 is a family of enterprise ready generative text models compatible with NVIDIA NeMo Framework. | [Hugging Face](https://huggingface.co/collections/nvidia/nemotron-3-8b-6553adeb226f6ab4ffc356f9) |
+| Yi | 01 AI | 6B 9B 34B | The Yi series models are the next generation of open-source large language models. They are targeted as a bilingual language model and trained on 3T multilingual corpus, showing promise in language understanding, commonsense reasoning, reading comprehension, and more. | [Hugging Face](https://huggingface.co/01-ai) | 
 | Starling LM |  Nexusflow | 7B | Starling LM, an open large language model (LLM) trained by Reinforcement Learning from AI Feedback (RLAIF). Starling LM is trained from Openchat-3.5-0106 with our new reward model Starling-RM-34B and policy optimization method Fine-Tuning Language Models from Human Preferences (PPO). | [Hugging Face](https://huggingface.co/Nexusflow/Starling-LM-7B-beta) |
 | NexusRaven v2 | Nexusflow | 13B | NexusRaven is an open-source and commercially viable function calling LLM that surpasses the state-of-the-art in function calling capabilities. NexusRaven-V2 is capable of generating deeply nested function calls, parallel function calls, and simple single calls. It can also justify the function calls it generated. | [Hugging Face](https://huggingface.co/Nexusflow/NexusRaven-V2-13B) |
 | DeepSeek LLM | Deepseek AI | 7B 67B |   DeepSeek LLM is an advanced language model. It has been trained from scratch on a vast dataset of 2 trillion tokens in both English and Chinese. | [Hugging Face](https://huggingface.co/collections/deepseek-ai/deepseek-llm-65f2964ad8a0a29fe39b71d8) [Github](https://github.com/deepseek-ai/DeepSeek-LLM) | 
 | Deepseek VL (Multimodal) | Deepseek AI | 1.3B 7B | DeepSeek-VL, an open-source Vision-Language (VL) Model designed for real-world vision and language understanding applications. DeepSeek-VL possesses general multimodal understanding capabilities, capable of processing logical diagrams, web pages, formula recognition, scientific literature, natural images, and embodied intelligence in complex scenarios. It is a hybrid vision encoder supporting 1024 x 1024 image input and is constructed based on the DeepSeek-7b-base which is trained on an approximate corpus of 2T text tokens. | [Hugging Face](https://huggingface.co/collections/deepseek-ai/deepseek-vl-65f295948133d9cf92b706d3) |
 | Llava 1.6 (Multimodal) | Llava HF | 7B 13B 34B | LLaVa combines a pre-trained large language model with a pre-trained vision encoder for multimodal chatbot use cases. Available models:- Llava-v1.6-34b-hf, Llava-v1.6-Mistral-7b-hf, Llava-v1.6-Vicuna-7b-hf, Llava-v1.6-vicuna-13b-hf | [Hugging Face](https://huggingface.co/collections/llava-hf/llava-next-65f75c4afac77fd37dbbe6cf) [Hugging Face](https://huggingface.co/llava-hf/llava-v1.6-34b-hf) |
-| Nemotron 3 | Nvidia | 8B | Nemotron-3 are large language foundation models for enterprises to build custom LLMs. This foundation model has 8 billion parameters, and supports a context length of 4,096 tokens. Nemotron-3 is a family of enterprise ready generative text models compatible with NVIDIA NeMo Framework. | [Hugging Face](https://huggingface.co/collections/nvidia/nemotron-3-8b-6553adeb226f6ab4ffc356f9) |
+| Yi VL (Multimodal) | 01 AI | 6B 34B | Yi-VL model is the open-source, multimodal version of the Yi Large Language Model (LLM) series, enabling content comprehension, recognition, and multi-round conversations about images. | [Hugging Face Yi VL 6B](https://huggingface.co/01-ai/Yi-VL-6B) [Hugging Face Yi VL 34B](https://huggingface.co/01-ai/Yi-VL-34B) | 
 
 
 <br>
