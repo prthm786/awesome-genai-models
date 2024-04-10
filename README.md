@@ -57,6 +57,7 @@
 | Stable LM Zephyr | Stability AI | 3B | StableLM Zephyr 3B model is an auto-regressive language model based on the transformer decoder architecture. StableLM Zephyr 3B is a 3 billion parameter that was trained on a mix of publicly available datasets and synthetic datasets using Direct Preference Optimization (DPO). | [Hugging Face](https://huggingface.co/stabilityai/stablelm-zephyr-3b) |
 | Aya | Cohere | 13B | The Aya model is a transformer style autoregressive massively multilingual generative language model that follows instructions in 101 languages. It has same architecture as mt5-xxl. | [Hugging Face](https://huggingface.co/CohereForAI/aya-101) [Blog](https://txt.cohere.com/aya/) |
 | Nemotron 3 | Nvidia | 8B | Nemotron-3 are large language foundation models for enterprises to build custom LLMs. This foundation model has 8 billion parameters, and supports a context length of 4,096 tokens. Nemotron-3 is a family of enterprise ready generative text models compatible with NVIDIA NeMo Framework. | [Hugging Face](https://huggingface.co/collections/nvidia/nemotron-3-8b-6553adeb226f6ab4ffc356f9) |
+| Neural Chat v3 | Intel | 7B | fine-tuned 7B parameter LLM on the Intel Gaudi 2 processor from the mistralai/Mistral-7B-v0.1 on the open source dataset Open-Orca/SlimOrca. The model was aligned using the Direct Performance Optimization (DPO) method. | [Hugging Face](https://huggingface.co/collections/Intel/intel-neural-chat-65b3d2f2d0ba0a801668ef2c) |
 | Yi | 01 AI | 6B 9B 34B | The Yi series models are the next generation of open-source large language models. They are targeted as a bilingual language model and trained on 3T multilingual corpus, showing promise in language understanding, commonsense reasoning, reading comprehension, and more. | [Hugging Face](https://huggingface.co/01-ai) [Github](https://github.com/01-ai/Yi) | 
 | Starling LM |  Nexusflow | 7B | Starling LM, an open large language model (LLM) trained by Reinforcement Learning from AI Feedback (RLAIF). Starling LM is trained from Openchat-3.5-0106 with our new reward model Starling-RM-34B and policy optimization method Fine-Tuning Language Models from Human Preferences (PPO). | [Hugging Face](https://huggingface.co/Nexusflow/Starling-LM-7B-beta) |
 | NexusRaven v2 | Nexusflow | 13B | NexusRaven is an open-source and commercially viable function calling LLM that surpasses the state-of-the-art in function calling capabilities. NexusRaven-V2 is capable of generating deeply nested function calls, parallel function calls, and simple single calls. It can also justify the function calls it generated. | [Hugging Face](https://huggingface.co/Nexusflow/NexusRaven-V2-13B) |
@@ -92,14 +93,15 @@
 
 |  Model  | Created By | Description |    Link  |
 | ------- | ----------- | --------- | ------ | 
-| Stable Diffusion2 | Stability AI | It is a Diffusion-based text-to-image generation model. This model can be used to generate and modify images based on text prompts. It is a Latent Diffusion Model that uses a fixed, pretrained text encoder (OpenCLIP-ViT/H). | [Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-2) [Github](https://github.com/Stability-AI/stablediffusion) [Github](https://github.com/Stability-AI/stablediffusion) |
-| SDXL-turbo | Stability AI | SDXL-Turbo is a fast generative text-to-image model that can synthesize photorealistic images from a text prompt in a single network evaluation. SDXL-Turbo is a distilled version of SDXL 1.0, trained for real-time synthesis. SDXL-Turbo is based on a novel training method called Adversarial Diffusion Distillation (ADD). | [Hugging Face](https://huggingface.co/stabilityai/sdxl-turbo) | 
+| Stable Diffusion 2 | Stability AI | It is a Diffusion-based text-to-image generation model. This model can be used to generate and modify images based on text prompts. It is a Latent Diffusion Model that uses a fixed, pretrained text encoder (OpenCLIP-ViT/H). | [Hugging Face](https://huggingface.co/stabilityai/stable-diffusion-2) [Github](https://github.com/Stability-AI/stablediffusion) |
+| SDXL Turbo | Stability AI | SDXL-Turbo is a fast generative text-to-image model that can synthesize photorealistic images from a text prompt in a single network evaluation. SDXL-Turbo is a distilled version of SDXL 1.0, trained for real-time synthesis. SDXL-Turbo is based on a novel training method called Adversarial Diffusion Distillation (ADD). | [Hugging Face](https://huggingface.co/stabilityai/sdxl-turbo) | 
 | Stable Cascade | Stability AI | Stable Cascade is a diffusion model trained to generate images given a text prompt. It  is built upon the Würstchen architecture and its main difference to other models like Stable Diffusion is that it is working at a much smaller latent space. |  [Hugging Face](https://huggingface.co/stabilityai/stable-cascade) [Github](https://github.com/Stability-AI/StableCascade) |
 | DeciDiffusion v2.0 | DeciAI | DeciDiffusion 2.0 is a 732 million parameter text-to-image latent diffusion model. It is a state-of-the-art diffusion-based text-to-image generation model, builds upon the core architecture of Stable Diffusion. It incorporates key elements like the Variational Autoencoder (VAE) and the pre-trained Text Encoder CLIP. | [Hugging Face](https://huggingface.co/collections/Deci/decidiffusion-models-65a7fc00d0803e7abc1487cc) |
 | Playground v2.5 | Playground AI | Playground v2.5 is a diffusion-based text-to-image generative model. It is the state-of-the-art open-source model in aesthetic quality. | [Hugging Face](https://huggingface.co/playgroundai/playground-v2.5-1024px-aesthetic) |
 | SDXL-Lightning | Bytedance | SDXL-Lightning is a lightning-fast text-to-image generation model. It can generate high-quality 1024px images in a few steps. | [Hugging Face](https://huggingface.co/ByteDance/SDXL-Lightning) |
+| DreamShaper | Lykon | DreamShaper is a versatile AI model developed for various creative tasks. It is a Stable Diffusion model that has been fine-tuned for creating better images. | [Hugging Face](https://huggingface.co/Lykon/DreamShaper) |
 | Open Journey | PromptHero | Stable Diffusion fine tuned model on Midjourney images. | [Hugging Face](https://huggingface.co/prompthero/openjourney) |
-| Dalle mini | Borisdayma | Dalle mini is a transformer-based text-to-image generation model. This model can be used to generate images based on text prompts. | [Hugging Face](https://huggingface.co/dalle-mini/dalle-mini) [Github](https://github.com/borisdayma/dalle-mini) |
+| Dalle Mini | Borisdayma | Dalle mini is a transformer-based text-to-image generation model. This model can be used to generate images based on text prompts. | [Hugging Face](https://huggingface.co/dalle-mini/dalle-mini) [Github](https://github.com/borisdayma/dalle-mini) |
 
 
 <br>
@@ -133,6 +135,9 @@
 
 ---
 
+<br>
+
+[Back to Top](#generative-ai-models)
 
 <br>
 
@@ -204,3 +209,7 @@
 <br>
 
 ---
+
+<br>
+
+[Back to Top](#generative-ai-models)
